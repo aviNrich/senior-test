@@ -81,7 +81,7 @@ The application uses two main database tables: `coin` and `userTransaction`. Bel
 ### 2. **`userTransaction` Table**
 - **Description:** Stores user transaction data related to cryptocurrency purchases for a given coinId.
 
-## **Transaction Watcher (Background Task)**
+## **Transaction Watcher (Background Task)** (Note: this functionality is a bonus)
 
 - **Description:** This is a background function (`transactionWatcherIfUsdValueBelowOpenRate`) that periodically checks if the current USD price of the coin in a transaction has dropped below the purchase price and automatically closes the transaction.
 
